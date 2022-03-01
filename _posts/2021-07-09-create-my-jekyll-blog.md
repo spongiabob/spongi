@@ -29,7 +29,7 @@ Windows 不正式支持 Jekyll。有关详细信息，请参阅 Jekyll 文档中
 2.安装ruby成功(自带gem),使用如下命令进行安装jekyll
 gem install  jekyll
 # 图片教程
-![海绵宝宝](/assets/img/blog/spongia.png){: width="10" height="10"}
+![海绵宝宝]({{"/assets/img/blog/1.jpeg"|absolute_url}}){: width="100" height="100"}
 
 # 代码段书写教程
 Now, click on the new data stream and grab the **Measurement ID**. It should look something like `G-V6XXXXXXXX`. Copy this to your `_config.yml`{: .filepath} file:
