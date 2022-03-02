@@ -23,10 +23,9 @@ timezone: Asia/Shanghai
 
 title: 夏伯娜                          # the main title
 
-tagline: 测试开发   # it will display as the sub-title
+tagline: nancyxia   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  欢迎了解更多
+description: "欢迎来到我的个人站~ "         # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://spongiabob.github.io/'
@@ -84,8 +83,8 @@ theme_mode:   # [light|dark]
 #img_cdn: 'https://github.com/spongiabob/spongi/master'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/blog/1.jpeg'
-
+#avatar: 'https://img0.baidu.com/it/u=142340821,3997884355&fm=253&fmt=auto&app=138&f=JPEG?w=281&h=499'
+avatar: 'assets/img/blog/1.jpeg'
 
 
 # boolean type, the global switch for ToC in posts.
