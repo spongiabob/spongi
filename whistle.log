@@ -1,0 +1,15 @@
+
+From: whistle@2.8.0
+Node: v16.8.0
+Date: 2022/3/2 下午11:46:44
+TypeError: Cannot read property 'statusCode' of undefined
+    at /usr/local/lib/node_modules/whistle/lib/util/http-mgr.js:284:20
+    at /usr/local/lib/node_modules/whistle/lib/util/http-mgr.js:115:14
+    at /usr/local/lib/node_modules/whistle/lib/util/http-mgr.js:105:14
+    at /usr/local/lib/node_modules/whistle/lib/plugins/index.js:596:7
+    at /usr/local/lib/node_modules/whistle/node_modules/pfork/lib/index.js:45:5
+    at _rejected (/usr/local/lib/node_modules/whistle/node_modules/q/q.js:844:24)
+    at /usr/local/lib/node_modules/whistle/node_modules/q/q.js:870:30
+    at Promise.when (/usr/local/lib/node_modules/whistle/node_modules/q/q.js:1122:31)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/whistle/node_modules/q/q.js:788:41)
+    at /usr/local/lib/node_modules/whistle/node_modules/q/q.js:604:44
