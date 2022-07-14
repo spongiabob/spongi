@@ -1,35 +1,37 @@
 ---
-title: python pycharm虚拟环境问题
+title: jmeter学习相关
 author: 
   name: nancyxia
   link: https://github.com/Spongiabob
 date: 2022-03-07 18:32:00 +8
 categories: [Blogging, Tool]
-tags: [Pyton相关]
+tags: [Jmeter相关]
 ---
 
-python 工具pycharm用到国密加密方式，必须使用python3.6.8版本
+幕客网站学习：https://www.imooc.com/video/14718
 
 
 
-### 问题现象
+### Jmeter应用
 
-使用接口脚本涉及到国密加密方式，而国密加密接口依赖库依赖python3.6.8版本，本地原本使用的是3.8版本，导致加密接口不可用
+1.BS加架构（浏览器操作软件）性能测试
+2.官网链接：https://jmeter.apache.org/,依赖java的运行环境
 
 
-### 问题解决
+### Jmeter安装与环境处理
 
-1.python官网安装python3.6.8
-2.重新安装python3.6.8的虚拟环境
-![pycharm]({{"/assets/img/blog/pycharm1.jpeg"|absolute_url}}){: width="100" height="100"}
-3.新增虚拟环境目录，选中3.6.8版本
-![pycharm]({{"/assets/img/blog/pycharm2.jpeg"|absolute_url}}){: width="100" height="100"}
-4.如果本地有多个虚拟环境env，请到env的bin 目录下进行source activite 激活（此步骤不操作将会导致5步骤失败，创景重复的env lib）
-source env/bin/activate 
-![pycharm]({{"/assets/img/blog/pycharm3.jpeg"|absolute_url}}){: width="100" height="100"}
-5.创建env需要的依赖库（requirements.txt包含安装所需要的Python库目录）
-python3 -m pip install -r requirements.txt
+### Jmeter脚本录制与脚本编写
+1.脚本录制工具，badboy
+2.设置代理，jmeter链接代理后，调用对应代理接口运行，生成对应脚本请求流程
+
+### Jmeter性能测试实践
+
+### JmeterJDBC测试实践
 
 
 
 
+
+
+[幕客网站学习]: https://www.imooc.com/video/14718
+[官网链接]https://jmeter.apache.org/
